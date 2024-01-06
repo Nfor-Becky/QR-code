@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    Font-size : 15px;
+    background-color: hsl(220, 15%, 55%);
+}
+.container{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.image{
+  border-radius: 5px;
+  padding: 5% 5%;
+  align-items: center;
+  justify-content: center;
+}
+h5{
+    text-align: center;
+}
+p{
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+}
